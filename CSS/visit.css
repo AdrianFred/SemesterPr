@@ -189,6 +189,9 @@ section {
   .servings p {
     margin-bottom: 20px;
   }
+  .vilocation p {
+    margin: auto;
+  }
 }
 
 @media (max-width: 780px) {
