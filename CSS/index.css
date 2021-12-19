@@ -1,0 +1,122 @@
+.index_img {
+  width: 100%;
+  height: 90vh;
+
+  background-image: url(../Images/header-dino.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: 60%;
+  position: relative;
+  border-bottom: black 1px solid;
+}
+
+.cta-button a {
+  background-color: #cc3c25;
+  color: white;
+  text-decoration: none;
+  font-size: 2vh;
+  width: 450px;
+  height: 100px;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 70vh;
+  left: 17vw;
+  border: black 1px solid;
+}
+
+.index_text {
+  color: white;
+  position: absolute;
+  top: 15vh;
+  left: 17vw;
+  font-size: 60px;
+  max-width: 1000px;
+}
+
+.index_info {
+  background-color: #29434e;
+  padding: 0 10%;
+}
+
+.index_skeleton {
+  display: flex;
+  align-items: center;
+  padding-bottom: 65px;
+  padding-top: 65px;
+}
+
+.index_skeleton p {
+  padding-left: 100px;
+  color: white;
+  font-size: 3vh;
+  flex: 2;
+}
+
+.index_earth {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 65px;
+  padding-bottom: 65px;
+}
+
+.index_earth p {
+  color: white;
+  font-size: 3vh;
+  flex: 2;
+  padding-right: 100px;
+}
+
+.index_museum {
+  display: flex;
+  align-items: center;
+  padding-top: 65px;
+  padding-bottom: 65px;
+}
+
+.index_museum p {
+  padding-left: 100px;
+  color: white;
+  font-size: 3vh;
+  flex: 2;
+}
+
+.line1 {
+  border: white 1px solid;
+  width: 100%;
+}
+
+.skeletonpicture {
+  background-image: url(../Images/skeleton.jpg);
+  max-width: 500px;
+  height: 500px;
+  background-size: cover;
+  border-radius: 95px;
+  border: black 2px solid;
+  flex: 1;
+}
+
+.spacepicture {
+  background-image: url(../Images/earth.jpg);
+  max-width: 500px;
+  height: 500px;
+  background-size: cover;
+  border-radius: 95px;
+  border: black 2px solid;
+  background-position-x: center;
+  flex: 1;
+}
+
+.museumpicture {
+  background-image: url(../Images/musem.jpg);
+  max-width: 500px;
+  height: 500px;
+  background-size: cover;
+  border-radius: 95px;
+  border: black 2px solid;
+  flex: 1;
+}
