@@ -13,22 +13,28 @@
     />
     <link rel="stylesheet" href="/CSS/style.css" />
     <link rel="stylesheet" href="/CSS/index.css" />
+    <script src="https://kit.fontawesome.com/a1d2b39693.js" crossorigin="anonymous"></script>
   </head>
   <body>
     <header>
       <nav class="header_nav">
         <div>
-          <a href="index.html"><img src="/Images/icon-1719742.png" alt="Logo" class="Header_logo" /></a>
+          <a href="index.html"><img src="/Images/icon2.png" alt="Logo" class="Header_logo" /></a>
         </div>
         <a href="index.html" class="CMS">Community Science Museum</a>
-        <div class="nav-links">
-          <ul>
-            <li><a href="">Visit</a></li>
-            <li><a href="">Explore</a></li>
-            <li><a href="">Exhibition Spaces</a></li>
-            <li><a href="">Events</a></li>
-            <li><a href="">Get Involved</a></li>
-          </ul>
+
+        <div class="hamburger--menu">
+          <label for="hamburger-menu"><i class="fas fa-bars"></i></label>
+          <input type="checkbox" hidden id="hamburger-menu" />
+          <div class="nav-links">
+            <ul>
+              <li><a href="./visit.html">Visit</a></li>
+              <li><a href="./explore.html">Explore</a></li>
+              <li><a href="./ES.html">Exhibition Spaces</a></li>
+              <li><a href="./Events.html">Events</a></li>
+              <li><a href="./visit.html">Get Involved</a></li>
+            </ul>
+          </div>
         </div>
       </nav>
     </header>
@@ -38,14 +44,15 @@
         <div class="index_text">
           Come join us at the Community Science Museum where we’re committed to making science accessible to all.
         </div>
-        <div class="cta-button"><a href="#">Explore Together</a></div>
+        <div class="smalltext"><p>Come join us at the Community Science Museum</p></div>
+        <div class="cta-button"><a href="./explore.html">Explore Together</a></div>
         <div></div>
       </section>
 
       <section class="index_info">
+        <div><h2>Short Story</h2></div>
         <div class="index_skeleton">
-          <div class="skeletonpicture"></div>
-          <!-- <img src="/Images/skeleton.jpg" alt="human skeletons" /> -->
+          <div class="skeletonpicture"><img src="/Images/skeleton.jpg" alt="pictureofskeleton" /></div>
           <p>
             Over the course of human history, science has developed from our early understanding of fire, wind, water,
             and earth to exploring everything from galaxies far away to the very building blocks of life itself.
@@ -54,19 +61,19 @@
         <div class="line1"></div>
         <div class="index_earth">
           <p>
-            Over the course of human history, science has developed from our early understanding of fire, wind, water,
-            and earth to exploring everything from galaxies far away to the very building blocks of life itself.
+            The aim of our museum is to create a space where everyone can experience the wonders of our discoveries and
+            perhaps even ignite a lifelong passion to continue the exploration of the world around us.
           </p>
-          <!-- <img src="/Images/earth.jpg" alt="earth overview" /> -->
-          <div class="spacepicture"></div>
+          <div class="spacepicture"><img src="/Images/earth.jpg" alt="Earth Picture" /></div>
         </div>
         <div class="line1"></div>
         <div class="index_museum">
-          <div class="museumpicture"></div>
-          <!-- <img src="/Images/musem.jpg" alt="Picture of a museum" /> -->
+          <div class="museumpicture"><img src="/Images/musem.jpg" alt="Overview of museum" /></div>
           <p>
-            Over the course of human history, science has developed from our early understanding of fire, wind, water,
-            and earth to exploring everything from galaxies far away to the very building blocks of life itself.
+            We believe science should not be confined to the textbook, but brought to live through exhibits. This is why
+            we have over 1000 different exhibits on the many varied subjects of science to explore. Many of these
+            exhibits are designed for you to interact with and play around to see science come to life (apart from the
+            dinosaur exhibits – they only come to life at night when everyone’s gone home).
           </p>
         </div>
       </section>

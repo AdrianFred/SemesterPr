@@ -1,0 +1,126 @@
+.Covers {
+  background-color: #29434e;
+}
+
+.Covers h1 {
+  text-align: center;
+  color: white;
+  padding-top: 20px;
+  padding-bottom: 30px;
+  text-decoration: underline;
+  font-size: 40px;
+}
+
+.boxes {
+  display: grid;
+  flex-direction: row;
+
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.boxes p,
+.secondrowboxes p {
+  color: white;
+  max-width: 350px;
+  margin: auto;
+}
+
+.evolution,
+.biology,
+.cosmology,
+.robot,
+.ecology {
+  border: black 1px solid;
+  width: 400px;
+  height: 600px;
+  background-color: #2d3b41;
+  border-radius: 30px;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.evolution h2,
+.biology h2,
+.cosmology h2,
+.robot h2,
+.ecology h2 {
+  text-align: center;
+  color: white;
+}
+
+.evolution img,
+.biology img,
+.cosmology img,
+.robot img,
+.ecology img {
+  width: 350px;
+  border-radius: 30px;
+  display: block;
+  margin: 10px auto;
+  border: black 2px solid;
+}
+
+.secondrowboxes {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-bottom: 30px;
+  /* margin: 0 18%; */
+}
+
+.CTAvisit {
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.CTAvisit a {
+  background-color: #cc3c25;
+  color: white;
+  text-decoration: none;
+  font-size: 2.5vw;
+  width: 350px;
+  height: 50px;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  border: black 1px solid;
+}
+
+@media (max-width: 880px) {
+  .boxes {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+@media (max-width: 440px) {
+  .evolution,
+  .biology,
+  .cosmology,
+  .robot,
+  .ecology {
+    border: black 1px solid;
+    width: 300px;
+    height: 600px;
+  }
+  .evolution img,
+  .biology img,
+  .cosmology img,
+  .robot img,
+  .ecology img {
+    width: 250px;
+  }
+
+  .boxes p,
+  .secondrowboxes p {
+    color: white;
+    max-width: 250px;
+    margin: auto;
+  }
+
+  .CTAvisit a {
+    font-size: 5vw;
+    width: 200px;
+  }
+}

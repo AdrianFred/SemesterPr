@@ -1,0 +1,119 @@
+.explore_main {
+  background-color: #29434e;
+}
+
+.explore_main h1 {
+  color: white;
+  text-align: center;
+  text-decoration: underline;
+  padding-top: 20px;
+  font-size: 40px;
+}
+
+.ant_picture {
+  height: 60vh;
+  width: 70vw;
+  display: block;
+  margin: 30px auto 0 auto;
+  border-radius: 100px;
+  border: black 1px solid;
+  object-fit: cover;
+  object-position: 0 70%;
+}
+
+.lineover {
+  border-top: white 1px solid;
+  padding-bottom: 30px;
+  margin-top: 30px;
+}
+
+/* Kids section  */
+
+.kids_info {
+  display: flex;
+  margin: 0 15%;
+}
+
+.kids_info img,
+.teachers_info img {
+  width: 250px;
+  height: 300px;
+  border-radius: 30px;
+  display: flex;
+  margin-right: 20px;
+  margin-bottom: 30px;
+  object-fit: cover;
+}
+
+.kids_info h2 {
+  color: white;
+  padding-bottom: 20px;
+  text-decoration: underline;
+}
+
+.kids_info p {
+  color: white;
+  font-size: 3vh;
+}
+
+.secondline {
+  padding-top: 20px;
+}
+
+.secondline2 {
+  padding-bottom: 30px;
+}
+
+/* Teachers section  */
+
+.teachers_info {
+  display: flex;
+  margin: 0 15%;
+}
+
+.teachers_info h2 {
+  color: white;
+  text-decoration: underline;
+  padding-bottom: 20px;
+}
+
+.teachers_info p {
+  color: white;
+  font-size: 3vh;
+}
+
+@media (max-width: 940px) {
+  .kids_info,
+  .teachers_info {
+    flex-direction: column;
+  }
+
+  .kids_info img,
+  .teachers_info img {
+    margin: 0 auto;
+    height: cover;
+    width: 400px;
+    object-fit: cover;
+    object-position: 0 top;
+  }
+  .teachers_info h2,
+  .kids_info h2 {
+    margin-top: 20px;
+  }
+}
+
+@media (max-width: 560px) {
+  .kids_info img,
+  .teachers_info img {
+    width: 60vw;
+  }
+
+  .teachers_info img {
+    object-position: center;
+  }
+
+  .ant_picture {
+    object-position: center;
+    height: 20vh;
+  }
+}

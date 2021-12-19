@@ -1,0 +1,196 @@
+section {
+  background-color: #29434e;
+}
+
+.visitter h1 {
+  color: white;
+  text-decoration: underline;
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 40px;
+  padding-top: 20px;
+}
+
+.visitter h2 {
+  color: white;
+  font-size: 30px;
+  text-decoration: underline;
+  text-align: center;
+}
+
+.vilocation {
+  display: flex;
+  justify-content: space-around;
+}
+
+.vilocation p {
+  color: white;
+  font-size: 20px;
+  max-width: 300px;
+  margin-top: 20px;
+}
+
+.locationtext p {
+  text-align: center;
+  width: 400px;
+  padding-bottom: 20px;
+  font-size: 20px;
+}
+
+.overline {
+  border-top: white 1px solid;
+  padding-bottom: 20px;
+}
+
+/* Image */
+
+.exhibitionimg {
+  height: 60vh;
+  width: 75vw;
+  display: block;
+  margin: 10px auto 20px auto;
+  border-radius: 40px;
+  border: black 1px solid;
+  object-fit: cover;
+  object-position: center;
+}
+
+/* Opening Hours section  */
+
+.hours h2 {
+  color: White;
+  text-decoration: underline;
+  padding-bottom: 20px;
+  text-align: center;
+  font-size: 20px;
+}
+
+.hours p {
+  color: white;
+  padding-bottom: 7.5px;
+  text-align: center;
+  font-size: 20px;
+  width: 302px;
+}
+
+.hours {
+  display: flex;
+  justify-content: space-around;
+}
+
+.hallwayimg {
+  width: 300px;
+  height: 200px;
+  display: block;
+  margin: 0 auto 20px auto;
+  border-radius: 40px;
+  border: black 1px solid;
+  object-fit: cover;
+  object-position: center;
+}
+
+/* Servings */
+
+.servings {
+  display: flex;
+  justify-content: space-around;
+}
+
+.servings p {
+  color: white;
+  width: 302px;
+  font-size: 20px;
+}
+
+.servings h2 {
+  color: white;
+  text-decoration: underline;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+.servings img {
+  width: 300px;
+  height: 200px;
+  display: block;
+  border-radius: 40px;
+  border: black 1px solid;
+  object-fit: cover;
+  object-position: center;
+  margin-bottom: 20px;
+}
+
+/* Involved */
+
+.involved h2 {
+  color: white;
+  text-align: center;
+  text-decoration: underline;
+  margin-bottom: 20px;
+}
+
+.involved h3 {
+  color: white;
+  text-align: center;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.involved p {
+  color: white;
+  font-size: 20px;
+  max-width: 200px;
+  margin: auto;
+}
+
+.involvedflex {
+  display: flex;
+  justify-content: space-around;
+}
+
+.support,
+.volenteer,
+.internship {
+  width: 250px;
+  border: white 1px solid;
+  margin-bottom: 20px;
+  border-radius: 20px;
+}
+
+@media (max-width: 640px) {
+  .vilocation {
+    display: grid;
+  }
+
+  .hours {
+    display: grid;
+  }
+
+  .hallwayimg {
+    margin-top: 20px;
+  }
+  .exhibitionimg {
+    width: 300px;
+    height: 200px;
+    display: block;
+    margin: 0 auto 20px auto;
+    border-radius: 40px;
+    border: black 1px solid;
+    object-fit: cover;
+    object-position: center;
+  }
+
+  .servings {
+    display: grid;
+  }
+
+  .servings p {
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 780px) {
+  .involvedflex {
+    display: grid;
+  }
+}

@@ -1,0 +1,82 @@
+section {
+  background-color: #29434e;
+}
+
+.eventsection h1 {
+  color: white;
+  text-align: center;
+  text-decoration: underline;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 40px;
+}
+
+.night,
+.professor {
+  display: flex;
+  justify-content: center;
+}
+
+.night h2,
+.professor h2 {
+  color: white;
+  font-size: 20px;
+  text-align: left;
+  padding-bottom: 20px;
+}
+
+.night p,
+.professor p {
+  color: white;
+  font-size: 15px;
+  max-width: 300px;
+}
+
+.professor img {
+  margin-bottom: 20px;
+}
+
+.night img,
+.professor img {
+  height: 400px;
+  width: 400px;
+  display: block;
+  border-radius: 40px;
+  border: black 1px solid;
+  object-fit: cover;
+  object-position: center;
+  margin-right: 100px;
+}
+
+.spaceline {
+  border-top: white 1px solid;
+  margin-top: 20px;
+  padding-bottom: 20px;
+}
+
+@media (max-width: 850px) {
+  .night img,
+  .professor img {
+    height: 200px;
+    width: 200px;
+    margin: auto;
+  }
+
+  .night,
+  .professor {
+    display: grid;
+  }
+
+  .night h2,
+  .professor h2 {
+    text-align: center;
+  }
+  .professor p {
+    margin-bottom: 20px;
+  }
+
+  .night h2,
+  .professor h2 {
+    margin-top: 20px;
+  }
+}
