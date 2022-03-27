@@ -15,7 +15,7 @@
   display: grid;
   flex-direction: row;
 
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(3, 1fr);
 }
 
 .boxes p,
@@ -86,6 +86,12 @@
   justify-content: center;
   margin: auto;
   border: black 1px solid;
+}
+
+@media (max-width: 1240px) {
+  .boxes {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
 
 @media (max-width: 880px) {

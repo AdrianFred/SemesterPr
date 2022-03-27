@@ -1,0 +1,60 @@
+section {
+    min-height: 91vh;
+}
+
+.contactform {
+    color: white;
+    text-align: center;
+    font-size: 30px
+}
+
+.text-danger {
+    color: Red;
+    font-size: 15px;
+    display: block;
+}
+
+.form-group label {
+    display: block;
+    color: white;
+    font-size: 20px;
+    padding-top: 10px;
+}
+
+.form-group input {
+    margin-bottom: 5px;
+    min-width: 300px;
+    min-height: 20px;
+}
+
+.formedit {
+    display: flex;
+    justify-content: center;
+}
+
+
+/* Success message */
+
+.success {
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    padding-top: 40px;
+}
+
+/* Thank you */
+.thankYou {
+    font-size: 20px;
+    color: white;
+    text-align: center;
+}
+
+
+/* Involved */
+.involved {
+    padding-top: 20px;
+}
+
+.involved h2 {
+    font-size: 30px;
+}

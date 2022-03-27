@@ -13,6 +13,7 @@
     />
     <link rel="stylesheet" href="/CSS/style.css" />
     <link rel="stylesheet" href="/CSS/visit.css" />
+    <link rel="stylesheet" href="/CSS/involved.css">
     <script src="https://kit.fontawesome.com/a1d2b39693.js" crossorigin="anonymous"></script>
   </head>
   <body>
@@ -40,51 +41,6 @@
     </header>
     <main>
       <section>
-        <div class="visitter">
-          <h1>Visit Us</h1>
-          <div class="vilocation">
-            <div class="admissiontext">
-              <div><h2>Admission</h2></div>
-              <p>
-                The entrance is free for all. There are guided tours of the museum that leave every hour. These tours
-                are 70 NOK per person and include a handy printed guide of the museum. <p>If you would like to organise a
-                guided tour for your group of 6 or more people, please contact us to arrange the tour.</p> 
-              </p>
-            </div>
-
-            <div class="locationtext">
-              <div><h2>Location</h2></div>
-              <p>The museum is located at:</p>
-              <p>Bjørkveien 15</p>
-              <p>4515 Mandal</p>
-            </div>
-          </div>
-        </div>
-        <div><img src="./Images/exhibition.jpg" alt="Hallway overview" class="exhibitionimg"></div>
-        <div class="overline"></div>
-
-        <div class="hours">
-            <div><div><h2>Opening Hours</h2></div>
-            <p>Monday:Closed</p>
-            <p>Tuesday: 10:00 - 16:00</p>
-            <p>Wednesday: 10:00 - 16:00</p>
-            <p>Thursday: 10:00 - 16:00</p>
-            <p>Friday: 10:00 - 19:00</p>
-            <p>Saturday: 09:00 - 16:00</p>
-            <p>Sunday: 09:00 - 16:00</p>
-            </div><div><img src="./Images/hallway.jpg" alt="Hallway Overview" class="hallwayimg"></div>
-            
-        </div>
-        <div class="overline"></div>
-        <div class="servings">
-            <img src="/Images/burger-4369973_1920.jpg" alt="A look at the burger">
-            <div>
-                <h2>Servings</h2>
-                <p>There is a café attached to the museum where you can get light lunches, 
-                    soft drinks, coffee, snacks and more.</p>
-            </div>
-        </div>
-        <div class="overline"></div>
         <div class="involved">
             <h2>Want to get involved with us?</h2>
             <div class="involvedflex">
@@ -124,20 +80,55 @@
                     the museum. You’ll be learning from a number of 
                     different academics and people who are passionate 
                     about science and sharing it with the wider community.</p>
+                </div>
             </div>
-
-            </div>
-            
         </div>
+        <div class="overline"></div>
+        <div class="contactform">
+            <h1>Contact Us</h1>
+        </div>
+        <div class="formedit">
+            <form class="formselect">
+                 <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" class="form-control" placeholder="Enter Name" />
+                    <small class="text-danger" id="nameError"></small>
+                </div>
+                <div class="form-group">
+                    <label for="subject">Subject</label>
+                    <input type="text" id="subject" class="form-control" placeholder="Enter Subject" />
+                    <small class="text-danger" id="subjectError"></small>
+                </div>
+                <div class="form-group">
+                    <label for="address">Address</label>
+                    <input type="text" id="address" class="form-control" placeholder="Enter Address" />
+                    <small class="text-danger" id="addressError"></small>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email address</label>
+                    <input type="email" class="form-control" id="email" placeholder="Enter Email" />
+                    <small class="text-danger" id="emailError"></small>
+                </div>
+                <div class="form-group">
+                    <label for="textarea">Message</label>
+                    <input type="text" class="form-controls" id="textarea" placeholder="Enter your message here" />
+                </div>
+              
+                <button type="submit">Submit</button>
+             </form>
+        </div>
+        
+        <div class="success"></div>
+       
       </section>
       <footer>
         <div>
           <p>&copy;Community Science Museum</p>
         </div>
-        <!-- <div><p>Our Contacts-></p></div> -->
         <div><p>Tlf: 328 291 394</p></div>
         <div><p>Mail: Desk@csm.com</p></div>
       </footer>
     </main>
+    <script src="./js/involved.js"></script>
   </body>
 </html>
