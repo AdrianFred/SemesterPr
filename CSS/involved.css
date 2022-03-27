@@ -23,13 +23,17 @@ section {
 
 .form-group input {
     margin-bottom: 5px;
-    min-width: 300px;
+    min-width: 350px;
     min-height: 20px;
 }
 
 .formedit {
     display: flex;
     justify-content: center;
+}
+
+button {
+    font-size: 30px;
 }
 
 
