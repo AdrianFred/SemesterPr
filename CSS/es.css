@@ -14,8 +14,9 @@
 .boxes {
   display: grid;
   flex-direction: row;
-
   grid-template-columns: repeat(3, 1fr);
+  max-width: 1600px;
+  margin: 0 auto;
 }
 
 .boxes p,
@@ -78,7 +79,7 @@
   background-color: #cc3c25;
   color: white;
   text-decoration: none;
-  font-size: 2.5vw;
+  font-size: 25px;
   width: 350px;
   height: 50px;
   border-radius: 50px;

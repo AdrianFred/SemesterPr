@@ -1,64 +1,64 @@
 section {
-    min-height: 91vh;
+  min-height: 91vh;
 }
 
 .contactform {
-    color: white;
-    text-align: center;
-    font-size: 30px
+  color: white;
+  text-align: center;
+  font-size: 30px;
 }
 
 .text-danger {
-    color: Red;
-    font-size: 15px;
-    display: block;
+  color: Red;
+  font-size: 15px;
+  display: block;
 }
 
 .form-group label {
-    display: block;
-    color: white;
-    font-size: 20px;
-    padding-top: 10px;
+  display: block;
+  color: white;
+  font-size: 20px;
+  padding-top: 10px;
 }
 
 .form-group input {
-    margin-bottom: 5px;
-    min-width: 350px;
-    min-height: 20px;
+  margin-bottom: 5px;
+  min-width: 350px;
+  min-height: 20px;
 }
 
 .formedit {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 button {
-    font-size: 30px;
+  font-size: 30px;
 }
-
 
 /* Success message */
 
 .success {
-    text-align: center;
-    color: white;
-    font-size: 30px;
-    padding-top: 40px;
+  text-align: center;
+  color: white;
+  font-size: 30px;
+  padding-top: 40px;
 }
 
 /* Thank you */
 .thankYou {
-    font-size: 20px;
-    color: white;
-    text-align: center;
+  font-size: 20px;
+  color: white;
+  text-align: center;
 }
-
 
 /* Involved */
 .involved {
-    padding-top: 20px;
+  padding-top: 20px;
+  max-width: 1400px;
+  margin: 0 auto;
 }
 
 .involved h2 {
-    font-size: 30px;
+  font-size: 30px;
 }

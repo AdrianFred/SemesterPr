@@ -1,3 +1,13 @@
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+section.eventsection {
+  min-height: 89vh;
+}
+
 section {
   background-color: #29434e;
 }
