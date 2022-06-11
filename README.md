@@ -19,7 +19,7 @@ Some of the main aspect of the site:
 ## Built With
 
 - To make this page we used basic HTML/CSS. No java script or anything as everything was hardcoded, this was our first big project at our school.
-- To deply the website we used [Netlify](www.Netlify.com)
+- To deply the website we used [Netlify](https://www.Netlify.com)
 
 ## Getting Started
 
